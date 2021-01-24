@@ -8,83 +8,88 @@
             margin: 0;
             padding: 0;
         }
-        
+
         body {
-            font: 16px Helvetica, Sans-Serif;
+            font: 16px Montserrat, Sans-Serif;
             line-height: 24px;
-            background: url(images/noise.jpg);
+            background-color: #040015;
         }
-        
+
         .clear {
             clear: both;
         }
-        
+
         #page-wrap {
             width: 800px;
             margin: 40px auto 60px;
         }
-        
+
         #pic {
             float: right;
             margin: -30px 0 0 0;
         }
-        
+
         h1 {
             margin: 0 0 16px 0;
             padding: 0 0 16px 0;
             font-size: 42px;
             font-weight: bold;
             letter-spacing: -2px;
-            border-bottom: 1px solid #999;
+            border-bottom: 1px solid #fff;
+            color: white;
         }
-        
+
         h2 {
             font-size: 20px;
             margin: 0 0 6px 0;
             position: relative;
+            color: #6171D9;
         }
-        
+
         h2 span {
             position: absolute;
             bottom: 0;
             right: 0;
             font-style: italic;
-            font-family: Georgia, Serif;
+            font-family: Montserrat, Serif;
             font-size: 16px;
-            color: #999;
+            color: #E9EBFA;
             font-weight: normal;
         }
-        
+
         p {
             margin: 0 0 16px 0;
+            color: #C8CDF2;
         }
-        
+
         a {
-            color: #999;
+            color: #5b6fd9;
             text-decoration: none;
-            border-bottom: 1px dotted #999;
+            border-bottom: 1px dotted #5b6fd9;
         }
-        
+
         a:hover {
             border-bottom-style: solid;
-            color: black;
+            color: white;
         }
-        
+
         ul {
             margin: 0 0 32px 17px;
         }
-        
+
         #objective {
             width: 500px;
             float: left;
+            color: #000;
         }
-        
+
         #objective p {
-            font-family: Georgia, Serif;
+            font-family: Montserrat, Serif;
             font-style: italic;
-            color: #666;
+            color: #E9EBFA;
+            font-weight: 400;
         }
-        
+
         dt {
             font-style: italic;
             font-weight: bold;
@@ -94,52 +99,89 @@
             width: 150px;
             float: left;
             height: 100px;
-            border-right: 1px solid #999;
+            border-right: 1px solid #6171D9;
+            color: #6171D9;
         }
-        
+
         dd {
             width: 600px;
             float: right;
         }
-        
+
         dd.clear {
             float: none;
             margin: 0;
-            height: 15px;
+            height: 40px;
         }
-        
+
         #info {
             text-align: left;
             font-style: italic;
-            font-family: Georgia, Serif;
+            font-family: Montserrat, Serif;
             font-size: 16px;
-            color: #999;
+            color: #fff;
             font-weight: normal;
         }
-        
+
         #projecttitle {
             font-size: 16px;
+            color: #6171D9;
         }
-        
+
         #projectinfo {
             font-size: 14px;
+            color: #C8CDF2;
+
+            font-weight: 500;
         }
-        
+
         #projectinfotitle {
             font-size: 16px;
+            color: #C8CDF2;
+            font-weight: 500;
         }
-        
+
         .company {
             color: #9a0000;
         }
-        
+
+        .companymain {
+            color: white !important;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+
+        }
+
         .designation {
             font-style: initial;
             color: #b79c9c;
-            font: 15px Helvetica, Sans-Serif;
+
+            font-size: 15px;
             font-weight: bold;
         }
+
+        .email {
+
+            font-weight: 600;
+            color: #C8CDF2;
+        }
+
+        .links {
+            font-weight: 700;
+            color: #C8CDF2;
+        }
+
+        .subproject {
+            padding-left: 20px;
+            border-left: 1px solid #6171D9;
+        }
     </style>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -153,15 +195,20 @@
             <h1 class="fn">Hiren Kangad</h1>
 
             <p>
-                Cell: <span class="tel">+91 99860 34136</span>
-                <br /> Email: <a class="email" href="mailto:metalfinger@live.com">metalfinger@live.com</a>
-                <br /> Website: <b><a href="https://www.metalfinger.xyz/" target="_blank">https://www.metalfinger.xyz/</a></b>
+                <span class="email">+91 99860 34136</span>
+                <br /><a class="email" href="mailto:metalfinger@live.com">metalfinger@live.com</a>
+                <br /><b><a class="links" href="https://www.metalfinger.xyz/"
+                        target="_blank">https://www.metalfinger.xyz/</a></b>
             </p>
         </div>
 
         <div id="objective">
             <p>
-                I completed my B.Tech from <a href="http://www.daiict.ac.in" target="_blank">DA-IICT</a> in Jul’13. Having great interest in Interactive Technologies and how Interactive Tech is the future of how we are gonna communicate with each other; been working around it since 9+ years. Founded two start-ups; one related to Interactive Technologies and other to promote Independent Art in Gujarat. Being coder from heart and having immense interest in design, over the time have turned into Interactive Media Artist
+                I completed my B.Tech from DA-IICT in Jul’13.
+                Having great interest in Interactive Technologies and how Interactive Tech is the future of how we are
+                gonna communicate with each other; been working around it since 9+ years. Founded two start-ups; one
+                related to Interactive Technologies and other to promote Independent Art in Gujarat. Being coder from
+                heart and having immense interest in design, over the time have turned into Interactive Media Artist
             </p>
         </div>
 
@@ -199,7 +246,8 @@
             <dt>Skills</dt>
             <dd>
                 <h2>Softwares and Tools</h2>
-                <p>Flutter, Adobe Suite, Unity 3D, Cinema 3D, Resolume, Unreal Engine, TouchDesigner, Houdini, Blender</p>
+                <p>Flutter, Adobe Suite, Unity 3D, Cinema 3D, Resolume, Unreal Engine, TouchDesigner, Houdini, Blender
+                </p>
 
                 <h2>Languages</h2>
                 <p>Dart, Action Script 3.0, GLSL, Java, C#, C++, Python, HTML5, CSS3, Javascript</p>
@@ -223,7 +271,10 @@
                         </tr>
                     </table>
                     <h4 id="projectinfo">
-                        This project was about creating Music Database which consisted of all of the information about different Music Artists and their work. It's similar to what IMDB is for Movies. For this project, have worked around Large Database and their internal linking system with efficient search options. 
+                        This project was about creating Music Database which consisted of all of the information about
+                        different Music Artists and their work. It's similar to what IMDB is for Movies. For this
+                        project, have worked around Large Database and their internal linking system with efficient
+                        search options.
                     </h4>
                 </div>
 
@@ -245,12 +296,15 @@
                         </tr>
                     </table>
                     <h4 id="projectinfo">
-                        This project was created to have a better Photo-Viewing experience for multi-touch devices. It included all the core functionalities of gestures with the support of Multitouch. This Application was created using Action Script 3.0. My main role in this project to code all the touch-related functionalities efficiently.
+                        This project was created to have a better Photo-Viewing experience for multi-touch devices. It
+                        included all the core functionalities of gestures with the support of Multitouch. This
+                        Application was created using Action Script 3.0. My main role in this project to code all the
+                        touch-related functionalities efficiently.
                     </h4>
                 </div>
 
                 <br />
-                
+
 
                 <div id="project">
                     <h4 id="projecttitle">
@@ -267,9 +321,12 @@
                         </tr>
                     </table>
                     <h4 id="projectinfo">
-                        This project was Proof of Concept to use Microsoft's Kinect as sensor and use that data to create live virtual dressing room. My role was to use data from Kinect and translate it into 3d space with cloth simulation.
-                        <br/>
-                        <a href="https://docs.google.com/file/d/0B49WeHPkQt4xLWt5bUZfSEVUQXc/edit?usp=sharing" target="_blank">Link</a>
+                        This project was Proof of Concept to use Microsoft's Kinect as sensor and use that data to
+                        create live virtual dressing room. My role was to use data from Kinect and translate it into 3d
+                        space with cloth simulation.
+                        <br />
+                        <a href="https://docs.google.com/file/d/0B49WeHPkQt4xLWt5bUZfSEVUQXc/edit?usp=sharing"
+                            target="_blank">Link</a>
                     </h4>
                 </div>
 
@@ -290,7 +347,11 @@
                         </tr>
                     </table>
                     <h4 id="projectinfo">
-                        This project was my final college project as a group project. Our aim was to create an application for multi-touch devices for Real-Estate people to showcase their sites better and immersive way. This app was created using Java; considering Java was on all of the devices at that time and our one of the main goal was to achieve something that is cross devices and platforms. I worked as Designer and Developer for this project.
+                        This project was my final college project as a group project. Our aim was to create an
+                        application for multi-touch devices for Real-Estate people to showcase their sites better and
+                        immersive way. This app was created using Java; considering Java was on all of the devices at
+                        that time and our one of the main goal was to achieve something that is cross devices and
+                        platforms. I worked as Designer and Developer for this project.
                     </h4>
                 </div>
 
@@ -311,7 +372,10 @@
                         </tr>
                     </table>
                     <h4 id="projectinfo">
-                        Using Microsoft Surface SDK, made a Photo Morphing application for Multi-Touch Devices. In this application, user can take photo and try out different hairstyle on themselves. Later on they can save that photo or share that photo with oter people. <a href="https://www.youtube.com/watch?v=JqrUnxbAt4c&list=UUNJiidM7VGdQN-96HuiHVnA&index=7"
+                        Using Microsoft Surface SDK, made a Photo Morphing application for Multi-Touch Devices. In this
+                        application, user can take photo and try out different hairstyle on themselves. Later on they
+                        can save that photo or share that photo with oter people. <a
+                            href="https://www.youtube.com/watch?v=JqrUnxbAt4c&list=UUNJiidM7VGdQN-96HuiHVnA&index=7"
                             target="_blank">Demo link</a>
                     </h4>
                 </div>
@@ -333,7 +397,12 @@
                         </tr>
                     </table>
                     <h4 id="projectinfo">
-                        This was my B.Tech final project under guidance of a professor. I created an application that can teach people Sign Language. I have used Leap Motion as input sensor which can read hand-posture and translate it from Sign Language to Text. This was also proof of concept as Leap Motion can be used to convert Sign Language into Text LIVE. <a href="https://drive.google.com/file/d/0B49WeHPkQt4xczVkR0ItRUxUR0k/edit?usp=sharing" target="_blank">Demo link</a></h4>
+                        This was my B.Tech final project under guidance of a professor. I created an application that
+                        can teach people Sign Language. I have used Leap Motion as input sensor which can read
+                        hand-posture and translate it from Sign Language to Text. This was also proof of concept as Leap
+                        Motion can be used to convert Sign Language into Text LIVE. <a
+                            href="https://drive.google.com/file/d/0B49WeHPkQt4xczVkR0ItRUxUR0k/edit?usp=sharing"
+                            target="_blank">Demo link</a></h4>
                 </div>
 
             </dd>
@@ -346,7 +415,8 @@
 
                 <table id="info" width="100%">
                     <tr>
-                        <td style="text-align:left"><a href="http://inkoniq.com/" target="_blank">Inkoniq.com</a>
+                        <td style="text-align:left"><a href="http://inkoniq.com/" target="_blank"
+                                class="companymain">Inkoniq.com</a>
                         </td>
                         <td style="text-align:right">Jan'13 - Apr'13
                         </td>
@@ -354,14 +424,16 @@
                     </tr>
                 </table>
                 <h3 id="projectinfotitle">
-                    Worked on different on-going projects as Designer and Coder with Interactive Technologies for 4 months.
+                    Worked on different on-going projects as Designer and Coder with Interactive Technologies for 4
+                    months.
                 </h3>
 
                 <br />
 
                 <table id="info" width="100%">
                     <tr>
-                        <td style="text-align:left"><a href="http://oobi.in/" target="_blank">OoBI.in</a>
+                        <td style="text-align:left"><a href="http://oobi.in/" target="_blank"
+                                class="companymain">OoBI.in</a>
                         </td>
                         <td style="text-align:right">Aug'13 - Sep'14
                         </td>
@@ -369,73 +441,87 @@
                     </tr>
                 </table>
                 <h3 id="projectinfotitle">
-                    Worked as Interactive Prototyper with this company. I have worked on different sensors and technologies like Kinect, Leap Motion, AR, VR. My main job was to make the application smooth and robust for live deployments and work on interaction parts for those projects. Some of the interesting projects I've worked with under this company are as below.
+                    Worked as Interactive Prototyper with this company. I have worked on different sensors and
+                    technologies like Kinect, Leap Motion, AR, VR. My main job was to make the application smooth and
+                    robust for live deployments and work on interaction parts for those projects. Some of the
+                    interesting projects I've worked with under this company are as below.
                 </h3>
 
                 <br />
+                <div class="subproject">
 
-                <div id="project">
-                    <h4 id="projecttitle">
-                        Sun-Light Demo with Animation
-                    </h4>
-                    <table id="info" width="100%">
-                        <tr>
-                            <td style="text-align:left">Team Size:1
-                            </td>
-                            <td style="text-align:right">Aug - Sep'13
-                            </td>
+                    <div id="project">
+                        <h4 id="projecttitle">
+                            Sun-Light Demo with Animation
+                        </h4>
+                        <table id="info" width="100%">
+                            <tr>
+                                <td style="text-align:left">Team Size:1
+                                </td>
+                                <td style="text-align:right">Aug - Sep'13
+                                </td>
 
-                        </tr>
-                    </table>
-                    <h4 id="projectinfo">
-                        Developed 3D live Sun-light demo for Real Estate companies. It helps customer to understand how sun light will come at different times in the day. Here is rough <a href="https://www.youtube.com/watch?v=OuRrda_e_nk&list=UUseaVDQfdSBOxc_OiXg8i7Q" target="_blank">video demo link</a>.
-                    </h4>
-                </div>
+                            </tr>
+                        </table>
+                        <h4 id="projectinfo">
+                            Developed 3D live Sun-light demo for Real Estate companies. It helps customer to understand
+                            how sun light will come at different times in the day. Here is rough <a
+                                href="https://www.youtube.com/watch?v=OuRrda_e_nk&list=UUseaVDQfdSBOxc_OiXg8i7Q"
+                                target="_blank">video demo link</a>.
+                        </h4>
+                    </div>
 
-                <br />
-                <div id="project">
-                    <h4 id="projecttitle">
-                        Google Map Plug-in
-                    </h4>
-                    <table id="info" width="100%">
-                        <tr>
-                            <td style="text-align:left">Team Size:1
-                            </td>
-                            <td style="text-align:right">Nov’13 – Jan’14
-                            </td>
+                    <br />
+                    <div id="project">
+                        <h4 id="projecttitle">
+                            Google Map Plug-in
+                        </h4>
+                        <table id="info" width="100%">
+                            <tr>
+                                <td style="text-align:left">Team Size:1
+                                </td>
+                                <td style="text-align:right">Nov’13 – Jan’14
+                                </td>
 
-                        </tr>
-                    </table>
-                    <h4 id="projectinfo">
-                        Created a Google Map Plug-In for in-house Real-Estate software called Real-IT. This plugin was used to detect all the amenities and life necessary places around the property.
-                    </h4>
-                </div>
-                <br />
+                            </tr>
+                        </table>
+                        <h4 id="projectinfo">
+                            Created a Google Map Plug-In for in-house Real-Estate software called Real-IT. This plugin
+                            was used to detect all the amenities and life necessary places around the property.
+                        </h4>
+                    </div>
+                    <br />
 
-                <div id="project">
-                    <h4 id="projecttitle">
-                        Color Visualizer for Digital Experience Center
-                    </h4>
-                    <table id="info" width="100%">
-                        <tr>
-                            <td style="text-align:left">Team Size:1
-                            </td>
-                            <td style="text-align:right">Feb'14 – May'14
-                            </td>
+                    <div id="project">
+                        <h4 id="projecttitle">
+                            Color Visualizer for Digital Experience Center
+                        </h4>
+                        <table id="info" width="100%">
+                            <tr>
+                                <td style="text-align:left">Team Size:1
+                                </td>
+                                <td style="text-align:right">Feb'14 – May'14
+                                </td>
 
-                        </tr>
-                    </table>
-                    <h4 id="projectinfo">
-                        For Godrej's <b>U and US interior</b>'s digital experience center, developed Color Visualizer to let customers have a better understanding of their home-interior before they buy it. Using this Visualizer, customer can recreate their house in 3d and can visualize the interior before buying. 
-                        <br /><a href="https://drive.google.com/file/d/0B49WeHPkQt4xdUh3YkxRY05kVXM/edit?usp=sharing" target="_blank">Link</a>
-                        <br/>
+                            </tr>
+                        </table>
+                        <h4 id="projectinfo">
+                            For Godrej's <b>U and US interior</b>'s digital experience center, developed Color
+                            Visualizer to let customers have a better understanding of their home-interior before they
+                            buy it. Using this Visualizer, customer can recreate their house in 3d and can visualize the
+                            interior before buying.
+                            <br /><a
+                                href="https://drive.google.com/file/d/0B49WeHPkQt4xdUh3YkxRY05kVXM/edit?usp=sharing"
+                                target="_blank">Link</a>
+                            <br />
 
-                    </h4>
+                        </h4>
+                    </div>
                 </div>
                 </br>
 
                 <div id="project">
-                    <h4 id="projecttitle" class="company">
+                    <h4 id="projecttitle" class="companymain">
                         Dotted Yellow Umbrella
                     </h4>
                     <table id="info" width="100%">
@@ -447,15 +533,34 @@
 
                         </tr>
                     </table>
-                    <h4 id="projectinfo">
+                    <h4 id="projectinfotitle">
                         After working with Interactive Technologies, started own company in Bangalore. We used to work around Multitouch, AR and VR Products. Ran this startup succesfully for 2 years.
                     </h4>
                 </div>
-                <br/>
+                <br />
 
                 <div id="project">
-                    <h4 id="projecttitle" class="company">
-                        The Candyman Entertainment LLP
+                    <h4 id="projecttitle" class="companymain">
+                        Sofar Sounds Ahmedabad
+                    </h4>
+                    <table id="info" width="100%">
+                        <tr>
+                            <td style="text-align:left" class="designation">Co-founder
+                            </td>
+                            <td style="text-align:right">Jul'18 – Nov'18
+                            </td>
+
+                        </tr>
+                    </table>
+                    <h4 id="projectinfotitle">
+                        Was part of core team with Sofar Sounds Ahmedabad Chapter. My role expanded from curating artists to looking for venues and doing Sofar Shows for Ahmedabad leg. 
+                    </h4>
+                </div>
+                <br />
+
+                <div id="project">
+                    <h4 id="projecttitle" class="companymain">
+                        Sofar Sounds Ahmedabad Chapter
                     </h4>
                     <table id="info" width="100%">
                         <tr>
@@ -466,17 +571,19 @@
 
                         </tr>
                     </table>
-                    <h4 id="projectinfo">
-                        Co-founded Candyman Entertainment since 2016 with a goal to promote independent artists in India. <a href="https://www.facebook.com/fangirl.live" target="_blank">Fangirl</a> is an IP of Candyman Entertainment which promotes curated
-                        Indian Independent music.
+                    <h4 id="projectinfotitle">
+                        Co-founded Candyman Entertainment since 2016 with a goal to promote independent artists in
+                        India. <a href="https://www.facebook.com/fangirl.live" target="_blank">Fangirl</a> is an IP of
+                        Candyman Entertainment which promotes curated
+                        Indian Independent music. My role in Fangirl expanded from being a Curator/Production Head for the festival to being head of the Design and Tech part. In the first year of Fangirl, we started with doing small house-gigs to two staged 2-days festival with 24+ indie artists from across India. In the second year of Fangirl, we created a venue at a place and did 8-week programming which included Independent Movie Screening, Comedy Gigs, Poetry Gigs, and Music Gigs; which helped us to create a community for Indie Artists and Audience. 
                     </h4>
                 </div>
-                <br/>
+                <br />
 
                 <div id="project">
-                    <h4 id="projecttitle" class="company">
+                    <h2 id="projecttitle" class="companymain">
                         Arijit Singh Live
-                    </h4>
+                    </h2>
                     <table id="info" width="100%">
                         <tr>
                             <td style="text-align:left" class="designation">Visual Artist and VJ
@@ -486,14 +593,16 @@
 
                         </tr>
                     </table>
-                    <h4 id="projectinfo">
-                        I worked as official Visual Artist for Arijit Singh's Live shows and toured across the world. From handling look of the shows to running the show from the perspective of visuals was my responsibility here. 
+                    <h4 id="projectinfotitle">
+                        I worked as official Visual Artist for Arijit Singh's Live shows and toured across the world.
+                        From handling look of the shows to running the show from the perspective of visuals was my
+                        responsibility here.
                     </h4>
                 </div>
-                <br/>
+                <br />
 
                 <div id="project">
-                    <h4 id="projecttitle" class="company">
+                    <h4 id="projecttitle" class="companymain">
                         FREELANCING WORK
                     </h4>
                     <table id="info" width="100%">
@@ -504,11 +613,13 @@
 
                         </tr>
                     </table>
-                    <h4 id="projectinfo">
-                        Beside working with Arijit Singh Live, have been working as freelancer as Interactive Media Artist. You can check out more work related to this on <a href="https://metalfigner-xyz.webflow.io/" target="_blank">metalfinger.xyz</a>
+                    <h4 id="projectinfotitle">
+                        Beside working with Arijit Singh Live, have been working as freelancer as Interactive Media
+                        Artist. You can check out more work related to this on <a
+                            href="https://metalfigner-xyz.webflow.io/" target="_blank">metalfinger.xyz</a>
                     </h4>
                 </div>
-                <br/>
+                <br />
 
             </dd>
 
@@ -544,8 +655,10 @@
                         </tr>
                     </table>
                     <h4 id="projectinfo">
-                        This was a little experimental project where I tried to play Fruit Ninja with Leap Motion using my fingers.
-                        <br /><a href="https://www.youtube.com/watch?v=u0Z6X2Oq_Hs&list=UUseaVDQfdSBOxc_OiXg8i7Q" target="_blank">Link</a>
+                        This was a little experimental project where I tried to play Fruit Ninja with Leap Motion using
+                        my fingers.
+                        <br /><a href="https://www.youtube.com/watch?v=u0Z6X2Oq_Hs&list=UUseaVDQfdSBOxc_OiXg8i7Q"
+                            target="_blank">Link</a>
                     </h4>
                 </div>
                 <br />
@@ -562,7 +675,9 @@
                     </table>
                     <h4 id="projectinfo">
                         This project was a hobby project. Created posters for the songs I really love. :D
-                        <br /><a href="https://www.facebook.com/media/set/?set=a.743160699029037.1073741830.100000053413354&type=3" target="_blank">Link</a>
+                        <br /><a
+                            href="https://www.facebook.com/media/set/?set=a.743160699029037.1073741830.100000053413354&type=3"
+                            target="_blank">Link</a>
                     </h4>
                 </div>
                 <br />
@@ -578,7 +693,9 @@
                         </tr>
                     </table>
                     <h4 id="projectinfo">
-                        Started working on passion project to create virtual dressing room using Xbox Kinect Sensor. As interactive Technologies are the future of how we interact with things. This was quite interesting project and what I could accomplish over evolving technologies.
+                        Started working on passion project to create virtual dressing room using Xbox Kinect Sensor. As
+                        interactive Technologies are the future of how we interact with things. This was quite
+                        interesting project and what I could accomplish over evolving technologies.
                         Link to the videos are here
                         <br /><a href="https://youtu.be/eoLrL2vxWY0" target="_blank">Link 1</a>
                         <br /><a href="https://youtu.be/Bgmr2pVZ0LE" target="_blank">Link 2</a>
@@ -615,7 +732,8 @@
                         </tr>
                     </table>
                     <h4 id="projectinfo">
-                        THE HELP is one of my favourite movie. Have created a web-art out of my favourite dialogue from the movie.
+                        THE HELP is one of my favourite movie. Have created a web-art out of my favourite dialogue from
+                        the movie.
                         <br /><a href="https://metalfinger.xyz/you/" target="_blank">Link to PROJECT</a>
                     </h4>
                 </div>
@@ -632,7 +750,8 @@
                         </tr>
                     </table>
                     <h4 id="projectinfo">
-                        As every year there are 36 days of typo projects happening as community affort to excite artist to create new type-faces. Have created 3d type-face as part of this project.
+                        As every year there are 36 days of typo projects happening as community affort to excite artist
+                        to create new type-faces. Have created 3d type-face as part of this project.
                         <br /><a href="https://metalfinger.xyz/typo/" target="_blank">Link to PROJECT</a>
                     </h4>
                 </div>
@@ -734,9 +853,12 @@
                 <div id="project">
                     <h4 id="projectinfo">
                         <ul>
-                            <li /> <a href="https://www.metalfinger.xyz/projects/5-stages-of-grief">https://www.metalfinger.xyz/projects/5-stages-of-grief</a>
-                            <li /> <a href="https://www.metalfinger.xyz/projects/the-help">https://www.metalfinger.xyz/projects/the-help</a>
-                            <li /> <a href="https://www.metalfinger.xyz/projects/typo">https://www.metalfinger.xyz/projects/typo</a>
+                            <li /> <a
+                                href="https://www.metalfinger.xyz/projects/5-stages-of-grief">https://www.metalfinger.xyz/projects/5-stages-of-grief</a>
+                            <li /> <a
+                                href="https://www.metalfinger.xyz/projects/the-help">https://www.metalfinger.xyz/projects/the-help</a>
+                            <li /> <a
+                                href="https://www.metalfinger.xyz/projects/typo">https://www.metalfinger.xyz/projects/typo</a>
                             <!-- <li /> <a href="https://metalfigner-xyz.webflow.io/">https://metalfigner-xyz.webflow.io/</a> -->
                             <li /> <a href="https://www.metalfinger.xyz/">https://www.metalfinger.xyz/</a>
                         </ul>
