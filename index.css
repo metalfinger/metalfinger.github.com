@@ -42,7 +42,7 @@ body {
 
 @media only screen and (min-width: 991px) {
     body {
-        font-size: 1vw;
+        font-size: 0.9vw;
     }
 }
 
@@ -51,7 +51,7 @@ body {
 
 @media only screen and (min-width: 1200px) {
     body {
-        font: 1vw;
+        font: 0.9vw;
     }
 }
 
@@ -232,7 +232,7 @@ dd.clear {
 }
 
 #projectinfotitle {
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.4em;
     color: white;
     font-weight: 500;
