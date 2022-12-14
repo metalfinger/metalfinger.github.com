@@ -14,9 +14,45 @@
 }
 
 body {
-    font: 16px Montserrat, Sans-Serif;
-    line-height: 24px;
+    font: 1vw Montserrat, Sans-Serif;
+    line-height: 1.3em;
     background-color: #040C3A;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 479px) {
+    body {
+        font-size: 4vw;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 767px) {
+    body {
+        font-size: 2vw;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 991px) {
+    body {
+        font-size: 1vw;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    body {
+        font: 1vw;
+    }
 }
 
 .clear {
@@ -24,23 +60,55 @@ body {
 }
 
 #page-wrap {
-    width: 800px;
-    margin: 40px auto 60px;
+    max-width: 800px;
+    margin: 0em auto;
+    padding: 5em;
     position: relative;
+}
+
+.headerwrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.objective {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.picholder {
+    display: flex;
+    width: 20em;
+    height: 20em;
+    padding-top: 1.2em;
+    padding-right: 1.2em;
+    padding-bottom: 1.2em;
+    padding-left: 1.2em;
+    justify-content: center;
+    align-items: center;
 }
 
 #pic {
     float: right;
-    margin: 70px 0 0 0;
+    margin: 0 0 0;
     border-radius: 50%;
-    width: 260px;
     opacity: 0.9;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+    font-size: 0.9em;
+    ;
 }
 
 h1 {
     margin: 0 0 16px 0;
     padding: 0 0 16px 0;
-    font-size: 42px;
+    font-size: 2.2em;
     font-weight: bold;
     letter-spacing: -2px;
     border-bottom: 1px solid white;
@@ -48,7 +116,7 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1.1em;
     margin: 0 0 6px 0;
     position: relative;
     color: #000000;
@@ -101,22 +169,34 @@ ul {
     font-weight: 500;
 }
 
+.divide {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 dt {
+    display: flex;
+    width: 30%;
+    justify-content: center;
     font-style: italic;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.2em;
     text-align: right;
     padding: 0 26px 0 0;
-    width: 80px;
-    float: left;
-    height: 100px;
+    width: 6em;
+    height: 5em;
     border-right: 1px solid #06C2C6;
     color: #06C2C6;
 }
 
 dd {
-    width: 670px;
+    width: 70%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
     float: right;
+    padding-left: 1em;
 }
 
 dd.clear {
@@ -129,13 +209,14 @@ dd.clear {
     text-align: left;
     font-style: italic;
     font-family: Montserrat, Serif;
-    font-size: 16px;
+    font-size: 1em;
+    line-height: 1.4em;
     color: #42EBEE;
     font-weight: normal;
 }
 
 #projecttitle {
-    font-size: 16px;
+    font-size: 1.3em;
     color: #000000;
     background-color: #01A5A9;
     display: inline;
@@ -144,13 +225,15 @@ dd.clear {
 }
 
 #projectinfo {
-    font-size: 14px;
+    font-size: 1em;
+    line-height: 1.4em;
     color: white;
     font-weight: 500;
 }
 
 #projectinfotitle {
-    font-size: 16px;
+    font-size: 1em;
+    line-height: 1.4em;
     color: white;
     font-weight: 500;
 }
@@ -161,8 +244,8 @@ dd.clear {
 
 .companymain {
     color: white !important;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 1.2em;
+    line-height: 1.3em;
     font-style: normal;
     font-weight: 600;
 }
@@ -170,7 +253,8 @@ dd.clear {
 .designation {
     font-style: initial;
     color: #42EBEE;
-    font-size: 15px;
+    font-size: 1em;
+    line-height: 1.5em;
     font-weight: bold;
 }
 
